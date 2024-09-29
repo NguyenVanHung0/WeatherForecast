@@ -85,7 +85,7 @@ def train_gan(epochs, batch_size=1):
 
 
 # Thực hiện huấn luyện
-train_gan(epochs=1000)
+train_gan(epochs=2000)
 
 
 # Dự đoán dữ liệu mới
