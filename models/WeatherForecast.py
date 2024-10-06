@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Đọc dữ liệu từ file CSV
 data = pd.read_csv('du_lieu_thoi_tiet.csv')
 
-# Tiền xử lý dữ liệu
+# Tiền xử lý dữ liệu [-1, 1]
 features = data[['Nhiệt độ thấp nhất', 'Nhiệt độ trung bình', 'Nhiệt độ cao nhất', 'Lượng mưa']].values
 feature_mean = np.mean(features, axis=0)
 feature_std = np.std(features, axis=0)
